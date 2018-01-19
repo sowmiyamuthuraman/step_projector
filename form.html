@@ -1,0 +1,142 @@
+<html>
+<head>
+	<LINK REL=StyleSheet HREF="bg.css" TYPE="text/css" MEDIA=screen>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/business-frontpage.css" rel="stylesheet">
+	<link href="style1.css" rel="stylesheet">
+
+</head>
+<body>
+
+ <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">BACHELOR'S PRO</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+				
+                    <li>
+                        <a href="upload.php">Add Your Home</a>
+                    </li>
+                    <li>
+                        <a href="logout.php" class="pull-right">Log Out</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav><br/>
+	<marquee><h1 style="color:white;">BACHELOR'S PRO</h1></marquee>
+	<div class="container bk">
+	<center><strong><h2>Please fill out this form</h2></strong></center>
+<form action="form.php" method="post">
+
+
+  <div class="form-group">
+    <label for="exampleSelect1">City</label>
+    <select class="form-control" id="city" name="city">
+      <option value="option1-1">Chennai</option>
+      <option value="option1-2">Coimabtore</option>
+      <option value="option1-3">Trichy</option>
+	  <option value="option1-4">Madurai</option>
+	  <option value="option2-1">Bangalore</option>
+      <option value="option2-2">Mysore</option>
+      <option value="option2-3">Mangalore</option>
+	  <option value="option2-4">Mandya</option>
+	  
+    </select>
+  </div>
+<div class="form-group">
+    <label for="exampleSelect1">Residential Type</label>
+    <select class="form-control" id="type" name="type">
+      <option value="2">1 bhk</option>
+      <option value="3">2 bhk</option>
+	  <option value="4">3 bhk</option>
+	  <option value="5">More than 3 bhk</option>
+    </select>
+  </div>
+  <fieldset class="form-group">
+    <legend>Your Budget</legend>
+    <div class="form-check">
+      <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="Radios" id="Radio1" value="opt1" checked>
+        <5k
+      </label>
+    </div>
+    <div class="form-check">
+    <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="Radios" id="Radio2" value="opt2">
+        5k-10k
+      </label>
+    </div>
+	    <div class="form-check">
+    <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="Radios" id="Radio3" value="opt3">
+        10k-20k
+      </label>
+    </div>
+	    <div class="form-check">
+    <label class="form-check-label">
+        <input type="radio" class="form-check-input" name="Radios" id="Radio3" value="opt3">
+        >20k
+      </label>
+    </div>
+  </fieldset>
+    <div class="form-group">
+    <label for="exampleSelect1">Members</label>
+    <select class="form-control" id="members" name="members">
+      <option value="one">1</option>
+      <option value="two">2</option>
+	  <option value="three">3</option>
+	  <option value="four">4</option>
+	  <option value="five">5</option>
+	  	  <option value="five">6</option>
+	  <option value="five">7</option>
+	  <option value="five">8</option>
+	  <option value="five">9</option>
+	  	  <option value="five">10</option>
+		  	  <option value="five">>10</option>
+
+
+    </select>
+  </div>
+<div class="form-check">
+	<legend>Requirements</legend>
+    <label class="form-check-label">
+      <input type="checkbox" class="form-check-input">
+      Gym</label><small>(applicable for apartment only)</small>
+    
+	<label class="form-check-label">
+      <input type="checkbox" class="form-check-input">
+            Swimming pool</label><small>(applicable for apartment only)</small>
+    </label>
+		<label class="form-check-label">
+      <input type="checkbox" class="form-check-input">
+            Air-conditioned</label><small>(applicable for apartment only)</small>
+    </label>
+	<label class="form-check-label">
+      <input type="checkbox" class="form-check-input">
+      Fully Furnished
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+
+</body>
+</html>
